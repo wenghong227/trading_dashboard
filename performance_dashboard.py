@@ -264,7 +264,7 @@ exchange = get_exchange(mode)
 
 st.sidebar.markdown("---")
 st.sidebar.caption("STRATEGY CONFIG")
-symbol = st.sidebar.selectbox("Asset", ["ETH/USDT:USDT", "BTC/USDT:USDT", "SOL/USDT:USDT", "XRP/USDT:USDT", "DOGE/USDT:USDT"])
+symbol = st.sidebar.selectbox("Asset", ["ETH/USDT:USDT", "BTC/USDT:USDT", "SHIB/USDT:USDT"])
 days_back = st.sidebar.slider("Lookback (Days)", 7, 90, 30)
 
 if st.sidebar.button("RUN DIAGNOSTICS", type="primary", use_container_width=True):
